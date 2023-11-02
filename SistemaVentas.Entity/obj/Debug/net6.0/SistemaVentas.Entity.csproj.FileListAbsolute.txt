@@ -1,0 +1,14 @@
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.Entity\bin\Debug\net6.0\SistemaVentas.Entity.deps.json
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.Entity\bin\Debug\net6.0\SistemaVentas.Entity.runtimeconfig.json
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.Entity\bin\Debug\net6.0\SistemaVentas.Entity.dll
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.Entity\bin\Debug\net6.0\SistemaVentas.Entity.pdb
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.Entity\obj\Debug\net6.0\SistemaVentas.Entity.csproj.AssemblyReference.cache
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.Entity\obj\Debug\net6.0\SistemaVentas.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.Entity\obj\Debug\net6.0\SistemaVentas.Entity.AssemblyInfoInputs.cache
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.Entity\obj\Debug\net6.0\SistemaVentas.Entity.AssemblyInfo.cs
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.Entity\obj\Debug\net6.0\SistemaVentas.Entity.csproj.CoreCompileInputs.cache
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.Entity\obj\Debug\net6.0\SistemaVentas.Entity.dll
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.Entity\obj\Debug\net6.0\refint\SistemaVentas.Entity.dll
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.Entity\obj\Debug\net6.0\SistemaVentas.Entity.pdb
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.Entity\obj\Debug\net6.0\SistemaVentas.Entity.genruntimeconfig.cache
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.Entity\obj\Debug\net6.0\ref\SistemaVentas.Entity.dll
