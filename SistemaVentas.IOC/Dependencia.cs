@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using SistemaVentas.DAL.Interfaces;
 using SistemaVentas.DAL.Implements;
 using SistemaVentas.BLL.Interfaces;
+using SistemaVentas.BLL.Implements;
 
 namespace SistemaVentas.IOC
 {
@@ -27,7 +28,7 @@ namespace SistemaVentas.IOC
             services.AddScoped<IVentaRepository, VentaRepository>();
 
 
-            services.AddScoped<ICorreoService, ICorreoService>();
+            services.AddScoped<ICorreoService, CorreoService>();
         }
     }
 }
