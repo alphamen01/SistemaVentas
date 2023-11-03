@@ -8,7 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SistemaVentas.DAL.Context;
 using Microsoft.EntityFrameworkCore;
-//using SistemaVentas.DAL.Interfaces;
+using SistemaVentas.DAL.Interfaces;
+using SistemaVentas.DAL.Implements;
 
 namespace SistemaVentas.IOC
 {
@@ -20,6 +21,9 @@ namespace SistemaVentas.IOC
             {
                 options.UseSqlServer(configuration.GetConnectionString("CadenaSQL"));
             });
+
+            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddScoped<IVentaRepository, VentaRepository>();
         }
     }
 }
