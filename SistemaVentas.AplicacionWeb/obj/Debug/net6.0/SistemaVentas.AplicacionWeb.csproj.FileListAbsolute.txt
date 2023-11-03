@@ -252,3 +252,5 @@ C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Deb
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\Firebase.Auth.dll
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\Firebase.Storage.dll

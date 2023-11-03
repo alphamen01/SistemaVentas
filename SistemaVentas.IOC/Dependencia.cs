@@ -29,6 +29,7 @@ namespace SistemaVentas.IOC
 
 
             services.AddScoped<ICorreoService, CorreoService>();
+            services.AddScoped<IFirebaseService, FirebaseService>();
         }
     }
 }

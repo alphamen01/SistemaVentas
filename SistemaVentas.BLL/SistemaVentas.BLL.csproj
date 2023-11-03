@@ -7,13 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SistemaVentas.DAL\SistemaVentas.DAL.csproj" />
-    <ProjectReference Include="..\SistemaVentas.Entity\SistemaVentas.Entity.csproj" />
+    <PackageReference Include="FirebaseAuthentication.net" Version="3.7.2" />
+    <PackageReference Include="FirebaseStorage.net" Version="1.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Implements\" />
-    <Folder Include="Interfaces\" />
+    <ProjectReference Include="..\SistemaVentas.DAL\SistemaVentas.DAL.csproj" />
+    <ProjectReference Include="..\SistemaVentas.Entity\SistemaVentas.Entity.csproj" />
   </ItemGroup>
 
 </Project>
