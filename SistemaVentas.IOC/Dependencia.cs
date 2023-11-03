@@ -10,6 +10,7 @@ using SistemaVentas.DAL.Context;
 using Microsoft.EntityFrameworkCore;
 using SistemaVentas.DAL.Interfaces;
 using SistemaVentas.DAL.Implements;
+using SistemaVentas.BLL.Interfaces;
 
 namespace SistemaVentas.IOC
 {
@@ -24,6 +25,9 @@ namespace SistemaVentas.IOC
 
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IVentaRepository, VentaRepository>();
+
+
+            services.AddScoped<ICorreoService, ICorreoService>();
         }
     }
 }
