@@ -14,10 +14,12 @@ namespace SistemaVentas.Entity.Models
         [StringLength(50)]
         [Unicode(false)]
         public string? Recurso { get; set; }
+
         [Column("propiedad")]
         [StringLength(50)]
         [Unicode(false)]
         public string? Propiedad { get; set; }
+
         [Column("valor")]
         [StringLength(60)]
         [Unicode(false)]

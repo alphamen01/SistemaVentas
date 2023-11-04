@@ -18,17 +18,21 @@ namespace SistemaVentas.Entity.Models
         [Key]
         [Column("idRol")]
         public int IdRol { get; set; }
+
         [Column("descripcion")]
         [StringLength(30)]
         [Unicode(false)]
         public string? Descripcion { get; set; }
+
         [Column("esActivo")]
         public bool? EsActivo { get; set; }
+
         [Column("fechaRegistro", TypeName = "datetime")]
         public DateTime? FechaRegistro { get; set; }
 
         [InverseProperty("IdRolNavigation")]
         public virtual ICollection<RolMenu> RolMenus { get; set; }
+
         [InverseProperty("IdRolNavigation")]
         public virtual ICollection<Usuario> Usuarios { get; set; }
     }

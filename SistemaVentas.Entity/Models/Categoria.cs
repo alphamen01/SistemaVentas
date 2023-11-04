@@ -17,12 +17,15 @@ namespace SistemaVentas.Entity.Models
         [Key]
         [Column("idCategoria")]
         public int IdCategoria { get; set; }
+
         [Column("descripcion")]
         [StringLength(50)]
         [Unicode(false)]
         public string? Descripcion { get; set; }
+
         [Column("esActivo")]
         public bool? EsActivo { get; set; }
+
         [Column("fechaRegistro", TypeName = "datetime")]
         public DateTime? FechaRegistro { get; set; }
 
