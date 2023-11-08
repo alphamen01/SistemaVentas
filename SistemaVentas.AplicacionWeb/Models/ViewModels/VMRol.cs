@@ -1,0 +1,15 @@
+﻿using Microsoft.EntityFrameworkCore;
+using SistemaVentas.Entity.Models;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+namespace SistemaVentas.AplicacionWeb.Models.ViewModels
+{
+    public class VMRol
+    {        
+        public int IdRol { get; set; }
+       
+        public string? Descripcion { get; set; }      
+        
+    }
+}
