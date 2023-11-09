@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OoYAcDDizq8xakquaTIQ4AYvCLIZRnfp2f2bqHXrlJ4=",
+  "Hash": "wU3P3gXlKVWqWa8kAyyW7DutJ1KSSQ/jB5pPGL1B1+s=",
   "Source": "SistemaVentas.AplicacionWeb",
   "BasePath": "_content/SistemaVentas.AplicacionWeb",
   "Mode": "Default",
@@ -321,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\vistas\\datatables-demo.js"
+    },
+    {
+      "Identity": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\js\\vistas\\Usuario_Index.js",
+      "SourceId": "SistemaVentas.AplicacionWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\",
+      "BasePath": "_content/SistemaVentas.AplicacionWeb",
+      "RelativePath": "js/vistas/Usuario_Index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\vistas\\Usuario_Index.js"
     },
     {
       "Identity": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\scss\\_buttons.scss",

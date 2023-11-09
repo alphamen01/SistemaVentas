@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\js\\sb-admin-2.min.js"
     },
     {
+      "Id": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\js\\vistas\\Usuario_Index.js",
+      "PackagePath": "staticwebassets\\js\\vistas\\Usuario_Index.js"
+    },
+    {
       "Id": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\js\\vistas\\chart-bar-demo.js",
       "PackagePath": "staticwebassets\\js\\vistas\\chart-bar-demo.js"
     },
