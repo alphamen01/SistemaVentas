@@ -60,7 +60,7 @@ namespace SistemaVentas.BLL.Implements
 
                 if(usuario_creado.IdUsuario == 0)
                 {
-                    throw new TaskCanceledException("No se puedo crear el usuario");
+                    throw new TaskCanceledException("No se pudo crear el usuario");
                 }
 
                 if(urlPlantillaCorreo != "")
@@ -147,7 +147,7 @@ namespace SistemaVentas.BLL.Implements
 
                 if (!respuesta)
                 {
-                    throw new TaskCanceledException("No se puedo modificar el usuario");
+                    throw new TaskCanceledException("No se pudo modificar el usuario");
                 }
 
                 Usuario usuario_editado = queryUsuario.Include(r => r.IdRolNavigation).First();
