@@ -102,6 +102,19 @@ $("#btnNuevo").click(function () {
     mostrarModal()
 });
 
+$("#txtFoto").change(function (e) {
+    // Obtén el archivo seleccionado
+    var archivo = e.target.files[0];
+
+    if (archivo) {
+        // Crea un objeto URL para la vista previa
+        var url = URL.createObjectURL(archivo);
+
+        // Muestra la vista previa en la imagen
+        $("#imgUsuario").attr("src", url);
+    }
+});
+
 $("#btnGuardar").click(function () {
 
     /*debugger;*/
