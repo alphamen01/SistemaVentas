@@ -18,12 +18,16 @@ $(document).ready(function () {
         return response.ok ? response.json() : Promise.reject(response);
         })
         .then(responseJson => {
-        if (responseJson.length > 0)
-            responseJson.forEach((item) => {
-                $("#cboRol").append(
-                    $("<option>").val(item.idRol).text(item.descripcion)
-                )
-            })            
+
+            //console.log(responseJson)
+            if (responseJson.length > 0) {
+                responseJson.forEach((item) => {
+                    $("#cboRol").append(
+                        $("<option>").val(item.idRol).text(item.descripcion)
+                    )
+                }) 
+            }
+                       
         })
 
     tablaData = $('#tbdata').DataTable({
