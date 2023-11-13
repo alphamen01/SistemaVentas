@@ -38,6 +38,8 @@ namespace SistemaVentas.IOC
             services.AddScoped<INegocioService, NegocioService>();
             services.AddScoped<ICategoriaService, CategoriaService>();
             services.AddScoped<IProductoService, ProductoService>();
+            services.AddScoped<ITipoDocumentoVentaService, TipoDocumentoVentaService>();
+            services.AddScoped<IVentaService, VentaService>();
         }
     }
 }
