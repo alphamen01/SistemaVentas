@@ -1,5 +1,6 @@
 ﻿using SistemaVentas.BLL.Interfaces;
 using SistemaVentas.DAL.Implements;
+using SistemaVentas.DAL.Interfaces;
 using SistemaVentas.Entity.Models;
 using System;
 using System.Collections.Generic;
@@ -11,9 +12,9 @@ namespace SistemaVentas.BLL.Implements
 {
     public class TipoDocumentoVentaService : ITipoDocumentoVentaService
     {
-        private readonly GenericRepository<TipoDocumentoVenta> _repositorio;
+        private readonly IGenericRepository<TipoDocumentoVenta> _repositorio;
 
-        public TipoDocumentoVentaService(GenericRepository<TipoDocumentoVenta> repositorio)
+        public TipoDocumentoVentaService(IGenericRepository<TipoDocumentoVenta> repositorio)
         {
             _repositorio = repositorio;
         }
