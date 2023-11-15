@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VzMguqxnhwCMoMwiKHVO6cdu85yWnCgEzJk9XCWkXPE=",
+  "Hash": "v6r/B1mUo7xd04MZLeV8IbnmR8siAvz81cY4lMctqMU=",
   "Source": "SistemaVentas.AplicacionWeb",
   "BasePath": "_content/SistemaVentas.AplicacionWeb",
   "Mode": "Default",
@@ -355,6 +355,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\vistas\\datatables-demo.js"
+    },
+    {
+      "Identity": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\js\\vistas\\Historial_Venta.js",
+      "SourceId": "SistemaVentas.AplicacionWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\",
+      "BasePath": "_content/SistemaVentas.AplicacionWeb",
+      "RelativePath": "js/vistas/Historial_Venta.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\vistas\\Historial_Venta.js"
     },
     {
       "Identity": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\js\\vistas\\Negocio_Index.js",
