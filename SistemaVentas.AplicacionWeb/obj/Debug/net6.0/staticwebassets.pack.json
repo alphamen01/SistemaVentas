@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\SistemaVentas.AplicacionWeb.bundle.scp.css"
     },
     {
+      "Id": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\Rotativa\\wkhtmltoimage.exe",
+      "PackagePath": "staticwebassets\\Rotativa\\wkhtmltoimage.exe"
+    },
+    {
+      "Id": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "PackagePath": "staticwebassets\\Rotativa\\wkhtmltopdf.exe"
+    },
+    {
       "Id": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\css\\sb-admin-2.css",
       "PackagePath": "staticwebassets\\css\\sb-admin-2.css"
     },
@@ -855,6 +863,10 @@
     {
       "Id": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\vendor\\fontawesome-free\\metadata\\sponsors.yml",
       "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\metadata\\sponsors.yml"
+    },
+    {
+      "Id": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\vendor\\fontawesome-free\\package-lock.json",
+      "PackagePath": "staticwebassets\\vendor\\fontawesome-free\\package-lock.json"
     },
     {
       "Id": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\vendor\\fontawesome-free\\package.json",

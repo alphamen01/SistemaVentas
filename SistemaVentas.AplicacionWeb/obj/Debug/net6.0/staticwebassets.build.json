@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v6r/B1mUo7xd04MZLeV8IbnmR8siAvz81cY4lMctqMU=",
+  "Hash": "EsPtVqZkx9EbB1MUw5hagQNs2lrBG/CwnomQwwDoONM=",
   "Source": "SistemaVentas.AplicacionWeb",
   "BasePath": "_content/SistemaVentas.AplicacionWeb",
   "Mode": "Default",
@@ -440,6 +440,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\vistas\\Usuario_Principal.js"
+    },
+    {
+      "Identity": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\Rotativa\\wkhtmltoimage.exe",
+      "SourceId": "SistemaVentas.AplicacionWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\",
+      "BasePath": "_content/SistemaVentas.AplicacionWeb",
+      "RelativePath": "Rotativa/wkhtmltoimage.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Rotativa\\wkhtmltoimage.exe"
+    },
+    {
+      "Identity": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "SourceId": "SistemaVentas.AplicacionWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\",
+      "BasePath": "_content/SistemaVentas.AplicacionWeb",
+      "RelativePath": "Rotativa/wkhtmltopdf.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Rotativa\\wkhtmltopdf.exe"
     },
     {
       "Identity": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\scss\\_buttons.scss",
@@ -3687,6 +3721,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\vendor\\fontawesome-free\\package.json"
+    },
+    {
+      "Identity": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\vendor\\fontawesome-free\\package-lock.json",
+      "SourceId": "SistemaVentas.AplicacionWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\",
+      "BasePath": "_content/SistemaVentas.AplicacionWeb",
+      "RelativePath": "vendor/fontawesome-free/package-lock.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\vendor\\fontawesome-free\\package-lock.json"
     },
     {
       "Identity": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\vendor\\fontawesome-free\\scss\\_animated.scss",

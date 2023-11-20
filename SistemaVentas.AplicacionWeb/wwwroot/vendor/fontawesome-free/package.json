@@ -46,7 +46,9 @@
   "engines": {
     "node": ">=6"
   },
-  "dependencies": {},
+  "dependencies": {
+    "fontawesome-free": "^1.0.4"
+  },
   "version": "5.15.3",
   "name": "@fortawesome/fontawesome-free",
   "main": "js/fontawesome.js",

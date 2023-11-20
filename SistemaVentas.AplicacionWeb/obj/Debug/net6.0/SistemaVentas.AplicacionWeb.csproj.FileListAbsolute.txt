@@ -2,6 +2,8 @@ C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Deb
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\appsettings.json
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\SistemaVentas.AplicacionWeb.staticwebassets.runtime.json
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\SistemaVentas.AplicacionWeb.exe
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\wwwroot\Rotativa\wkhtmltoimage.exe
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\wwwroot\Rotativa\wkhtmltopdf.exe
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\SistemaVentas.AplicacionWeb.deps.json
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\SistemaVentas.AplicacionWeb.runtimeconfig.json
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\SistemaVentas.AplicacionWeb.dll
@@ -60,6 +62,7 @@ C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Deb
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\NuGet.ProjectModel.dll
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\NuGet.Protocol.dll
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\Rotativa.AspNetCore.dll
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\System.Composition.Convention.dll
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\bin\Debug\net6.0\System.Composition.Hosting.dll
@@ -237,6 +240,7 @@ C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\obj\Deb
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\obj\Debug\net6.0\SistemaVentas.AplicacionWeb.AssemblyInfoInputs.cache
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\obj\Debug\net6.0\SistemaVentas.AplicacionWeb.AssemblyInfo.cs
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\obj\Debug\net6.0\SistemaVentas.AplicacionWeb.csproj.CoreCompileInputs.cache
+C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\obj\Debug\net6.0\SistemaVentas.AplicacionWeb.MvcApplicationPartsAssemblyInfo.cs
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\obj\Debug\net6.0\SistemaVentas.AplicacionWeb.MvcApplicationPartsAssemblyInfo.cache
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\obj\Debug\net6.0\SistemaVentas.AplicacionWeb.RazorAssemblyInfo.cache
 C:\Proyectos\2023\.NET\SolucionSistemaVentas\SistemaVentas.AplicacionWeb\obj\Debug\net6.0\SistemaVentas.AplicacionWeb.RazorAssemblyInfo.cs
