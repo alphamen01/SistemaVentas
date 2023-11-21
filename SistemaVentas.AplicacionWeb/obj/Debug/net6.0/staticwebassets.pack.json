@@ -73,6 +73,10 @@
       "PackagePath": "staticwebassets\\js\\vistas\\Categoria_Principal.js"
     },
     {
+      "Id": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\js\\vistas\\DashBoard_Index.js",
+      "PackagePath": "staticwebassets\\js\\vistas\\DashBoard_Index.js"
+    },
+    {
       "Id": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\wwwroot\\js\\vistas\\Historial_Venta.js",
       "PackagePath": "staticwebassets\\js\\vistas\\Historial_Venta.js"
     },
