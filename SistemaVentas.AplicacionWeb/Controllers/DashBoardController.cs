@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 using SistemaVentas.AplicacionWeb.Models.ViewModels;
 using SistemaVentas.AplicacionWeb.Utilidades.Response;
@@ -6,6 +7,7 @@ using SistemaVentas.BLL.Interfaces;
 
 namespace SistemaVentas.AplicacionWeb.Controllers
 {
+    [Authorize]
     public class DashBoardController : Controller
     {
         private readonly IDashBoardService _dashboardService;

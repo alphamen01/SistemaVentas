@@ -5,6 +5,7 @@ using SistemaVentas.AplicacionWeb.Models.ViewModels;
 using SistemaVentas.AplicacionWeb.Utilidades.Response;
 using SistemaVentas.BLL.Interfaces;
 using SistemaVentas.Entity.Models;
+using Microsoft.AspNetCore.Authorization;
 //using DinkToPdf;
 //using DinkToPdf.Contracts;
 //using System.Net.Http;
@@ -13,6 +14,7 @@ using SistemaVentas.Entity.Models;
 
 namespace SistemaVentas.AplicacionWeb.Controllers
 {
+    [Authorize]
     public class VentaController : Controller
     {
         private readonly IMapper _mapper;

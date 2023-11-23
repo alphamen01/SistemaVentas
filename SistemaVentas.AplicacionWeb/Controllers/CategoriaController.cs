@@ -7,9 +7,11 @@ using SistemaVentas.AplicacionWeb.Utilidades.Response;
 using SistemaVentas.BLL.Interfaces;
 using SistemaVentas.Entity.Models;
 using SistemaVentas.BLL.Implements;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaVentas.AplicacionWeb.Controllers
 {
+    [Authorize]
     public class CategoriaController : Controller
     {
         private readonly IMapper _mapper;
