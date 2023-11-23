@@ -7,6 +7,7 @@ using SistemaVentas.Entity.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.DotNet.Scaffolding.Shared.Messaging;
 
 namespace SistemaVentas.AplicacionWeb.Controllers
 {
@@ -29,6 +30,45 @@ namespace SistemaVentas.AplicacionWeb.Controllers
             }
             return View();
         }
+
+
+        public IActionResult RestablecerClave()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> RestablecerClave(VMUsuarioLogin modelo)
+        {
+            try
+            {
+
+                string urlPlantillaCorreo = $"{this.Request.Scheme}://{this.Request.Host}/Plantilla/RestablecerClave?clave=[clave]";
+
+                bool resultado = await _usuarioService.RestablecerClave(modelo.Correo!, urlPlantillaCorreo);
+
+                if (resultado)
+                {
+                    ViewData["Mensaje"] = "Listo, su contraseña fue restablecida. Revise su correo.";
+                    ViewData["MensajeError"] = null;
+                }
+                else
+                {
+                    ViewData["Mensaje"] = null;
+                    ViewData["MensajeError"] = "Tenemos problemas. Por favor intentelo de nuevo mas tarde.";
+                }
+
+            }catch (Exception ex)
+            {
+                ViewData["Mensaje"] = null;
+                ViewData["MensajeError"] = ex.Message;
+            }
+
+            return View();
+        }
+
+
 
         [HttpPost]
         public async Task<IActionResult> Login(VMUsuarioLogin modelo)
