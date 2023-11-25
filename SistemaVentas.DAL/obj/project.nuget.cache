@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RpxTtJ07PHxzBtEigksRXTPUmqD8acBk0aHx+QWJqOqeQOWqG+OyCHnAEfU3bSauFVwCcdsRYzpuz4qxGnBatA==",
+  "dgSpecHash": "tyDbidi74mpbWJ4ikHaluDw+5fs2NpFbXMWMFK59vHkY2Q5sS3mdcn63KCzue5Lr3l8U94e7/H7vHs4cqwRxHQ==",
   "success": true,
-  "projectFilePath": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj",
+  "projectFilePath": "C:\\Proyectos\\2023\\.NET\\SistemaVentas\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luisi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\luisi\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

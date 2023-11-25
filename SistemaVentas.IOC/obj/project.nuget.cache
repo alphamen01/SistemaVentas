@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vAZ4bc3T7cBjVv9PEimsU9tXJgqN8CYCo4vTKDx2aFciKexuqEx4KsvTRt7ZjiiWCBBOpSUeLhoGtciips5L8g==",
+  "dgSpecHash": "E66xhPA1dNwhFjnVObS8iZCja6DPSgA2Tzid1K7Kn0+ucZCQ8OoPcCKp2e2+wQK+d1gm0dtw8mrgE/e/NS5oSg==",
   "success": true,
-  "projectFilePath": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.IOC\\SistemaVentas.IOC.csproj",
+  "projectFilePath": "C:\\Proyectos\\2023\\.NET\\SistemaVentas\\SistemaVentas.IOC\\SistemaVentas.IOC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luisi\\.nuget\\packages\\firebaseauthentication.net\\3.7.2\\firebaseauthentication.net.3.7.2.nupkg.sha512",
     "C:\\Users\\luisi\\.nuget\\packages\\firebasestorage.net\\1.0.3\\firebasestorage.net.1.0.3.nupkg.sha512",

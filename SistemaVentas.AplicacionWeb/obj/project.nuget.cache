@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wCiBrWO5gu+ZpA8c/C8HnjSaALTcE6jWCJYaI57Co44Dctzo9eMrp3Q8m9mPgy+o7h5AAeqhP66Yekp594ZOUw==",
+  "dgSpecHash": "Sc6LvdE1czfi1Snw9joOfiqVxUHFPkLDOmcfAxGeh4QFNRHHGxxZS9Zso1w8Pcwzj7q3M01ClxVP0i552w9wYg==",
   "success": true,
-  "projectFilePath": "C:\\Proyectos\\2023\\.NET\\SolucionSistemaVentas\\SistemaVentas.AplicacionWeb\\SistemaVentas.AplicacionWeb.csproj",
+  "projectFilePath": "C:\\Proyectos\\2023\\.NET\\SistemaVentas\\SistemaVentas.AplicacionWeb\\SistemaVentas.AplicacionWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luisi\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\luisi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
