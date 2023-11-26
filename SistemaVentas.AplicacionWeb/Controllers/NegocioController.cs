@@ -8,6 +8,7 @@ using SistemaVentas.BLL.Interfaces;
 using SistemaVentas.Entity.Models;
 using SistemaVentas.BLL.Implements;
 using Microsoft.AspNetCore.Authorization;
+using SistemaVentas.AplicacionWeb.Utilidades.CustomFilter;
 
 namespace SistemaVentas.AplicacionWeb.Controllers
 {
@@ -23,6 +24,7 @@ namespace SistemaVentas.AplicacionWeb.Controllers
             _negocioService = negocioService;
         }
 
+        [ClaimRequirement(controlador: "Negocio", accion: "Index")]
         public IActionResult Index()
         {
             return View();

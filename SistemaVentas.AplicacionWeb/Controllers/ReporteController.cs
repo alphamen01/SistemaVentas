@@ -5,6 +5,7 @@ using AutoMapper;
 using SistemaVentas.AplicacionWeb.Models.ViewModels;
 using SistemaVentas.BLL.Interfaces;
 using Microsoft.AspNetCore.Authorization;
+using SistemaVentas.AplicacionWeb.Utilidades.CustomFilter;
 
 namespace SistemaVentas.AplicacionWeb.Controllers
 {
@@ -21,6 +22,7 @@ namespace SistemaVentas.AplicacionWeb.Controllers
             _ventaService = ventaService;
         }
 
+        [ClaimRequirement(controlador: "Reporte", accion: "Index")]
         public IActionResult Index()
         {
             return View();

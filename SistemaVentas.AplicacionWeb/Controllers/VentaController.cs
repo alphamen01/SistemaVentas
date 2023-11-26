@@ -7,6 +7,7 @@ using SistemaVentas.BLL.Interfaces;
 using SistemaVentas.Entity.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
+using SistemaVentas.AplicacionWeb.Utilidades.CustomFilter;
 //using DinkToPdf;
 //using DinkToPdf.Contracts;
 //using System.Net.Http;
@@ -35,12 +36,14 @@ namespace SistemaVentas.AplicacionWeb.Controllers
            // _generatePdf = generatePdf;
         }
 
+        [ClaimRequirement(controlador: "Venta", accion: "NuevaVenta")]
         public IActionResult NuevaVenta()
         {
             return View();
         }
 
 
+        [ClaimRequirement(controlador: "Venta", accion: "HistorialVenta")]
         public IActionResult HistorialVenta()
         {
             return View();

@@ -7,6 +7,7 @@ using SistemaVentas.AplicacionWeb.Utilidades.Response;
 using SistemaVentas.BLL.Interfaces;
 using SistemaVentas.Entity.Models;
 using Microsoft.AspNetCore.Authorization;
+using SistemaVentas.AplicacionWeb.Utilidades.CustomFilter;
 
 namespace SistemaVentas.AplicacionWeb.Controllers
 {
@@ -25,6 +26,8 @@ namespace SistemaVentas.AplicacionWeb.Controllers
             _rolService = rolService;
 
         }
+
+        [ClaimRequirement(controlador: "Usuario", accion: "Index")]
         public IActionResult Index()
         {
             return View();

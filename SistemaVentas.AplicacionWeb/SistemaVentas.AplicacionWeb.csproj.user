@@ -10,6 +10,7 @@
     <WebStackScaffolding_IsPartialViewSelected>False</WebStackScaffolding_IsPartialViewSelected>
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>False</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <ActiveDebugProfile>SistemaVentas.AplicacionWeb</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>C:\Proyectos\2023\.NET\SistemaVentas\SistemaVentas.AplicacionWeb\Properties\PublishProfiles\SistemaVentasFerreteria - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

@@ -18,7 +18,7 @@ namespace SistemaVentas.AplicacionWeb.Controllers
     [Authorize]
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        //private readonly ILogger<HomeController> _logger;
 
         private readonly IUsuarioService _usuarioService;
         private readonly IMapper _mapper; 
@@ -41,6 +41,12 @@ namespace SistemaVentas.AplicacionWeb.Controllers
         }
 
         public IActionResult Perfil()
+        {
+            return View();
+        }
+
+
+        public IActionResult SinPermiso()
         {
             return View();
         }
