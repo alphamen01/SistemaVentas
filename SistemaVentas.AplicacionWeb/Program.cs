@@ -8,11 +8,22 @@ using SistemaVentas.AplicacionWeb.Utilidades.Extensiones;
 //using DinkToPdf.Contracts;
 //using Wkhtmltopdf.NetCore;
 using Rotativa.AspNetCore;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddControllersWithViews().AddMvcOptions(options =>
+{
+    options.Filters.Add(
+        new ResponseCacheAttribute
+        {
+            NoStore = true
+        }
+        );
+});
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(option =>
